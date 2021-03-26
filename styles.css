@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+}
+
+.word-container {
+    height: 400px;
+    width: 600px;
+    width: 70%;
+    background-color: olive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-bar {
+    height: 400px;
+    width: 300px;
+    width: 30%;
+    background-color: orchid;
+}
+
+.main-section {
+    display: flex;
+}
+
